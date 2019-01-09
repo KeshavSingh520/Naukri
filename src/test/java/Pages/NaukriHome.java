@@ -16,6 +16,7 @@ public class NaukriHome extends Pagesbase1 {
 		driver.findElement(By.cssSelector("input[name='PASSWORD']")).sendKeys(password);
 		driver.findElement(By.cssSelector("button[type='submit'][value='Login']")).click();
 		
+		
 	}
 	
 	public static String  update()

@@ -1,0 +1,7 @@
+base\Testbase.class
+base\Pagesbase1.class
+Testcase\UpdateProfile.class
+Pages\NaukriHome.class
+listeners\CustomListeners.class
+Testcase\closePopup.class
+Testcase\TestNaukriHome.class
