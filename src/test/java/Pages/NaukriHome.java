@@ -11,6 +11,7 @@ public class NaukriHome extends Pagesbase1 {
 	
 	public static void doLogin(String username,String password)
 	{
+		logger.info("Clicking on Login");
 		driver.findElement(By.cssSelector("a[title='Jobseeker Login']")).click();
 		driver.findElement(By.xpath("//div[@class='form-row']/input[@type='text']")).sendKeys(username);
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
