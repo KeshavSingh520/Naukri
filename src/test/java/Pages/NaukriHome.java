@@ -12,9 +12,9 @@ public class NaukriHome extends Pagesbase1 {
 	public static void doLogin(String username,String password)
 	{
 		driver.findElement(By.cssSelector("a[title='Jobseeker Login']")).click();
-		driver.findElement(By.cssSelector("input[name='email']")).sendKeys(username);
-		driver.findElement(By.cssSelector("input[name='PASSWORD']")).sendKeys(password);
-		driver.findElement(By.cssSelector("button[type='submit'][value='Login']")).click();
+		driver.findElement(By.xpath("//div[@class='form-row']/input[@type='text']")).sendKeys(username);
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
 		
 	}
