@@ -30,7 +30,7 @@ public class Pagesbase1{
 		if(driver==null)
 		{
 			cap.setBrowserName("chrome");
-			WebDriverManager.firefoxdriver().setup();
+			WebDriverManager.chromedriver().setup();
 			try {
 				driver =new RemoteWebDriver(new URL("http://192.168.1.11:8078/wd/hub"),cap);
 			} catch (MalformedURLException e) {
